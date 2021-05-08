@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:columnCount="4"
+    app:alignmentMode="alignBounds"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling"><!--app:rowCount="5"; match_parent-->
+
+    <ImageView
+        android:id="@+id/cdr_0"
+        android:contentDescription="@string/cdr_0"
+        android:src="@drawable/cdr_0"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_margin" />
+        <!--
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        -->
+    <ImageView
+        android:id="@+id/cdr_1"
+        android:contentDescription="@string/cdr_1"
+        android:src="@drawable/cdr_1"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <!--
+        android:adjustViewBounds="true"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill_horizontal"
+        -->
+    <ImageView
+        android:id="@+id/cdr_2"
+        android:contentDescription="@string/cdr_2"
+        android:src="@drawable/cdr_2"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_3"
+        android:contentDescription="@string/cdr_3"
+        android:src="@drawable/cdr_3"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<Space />-->
+    <ImageView
+        android:id="@+id/cdr_4"
+        android:contentDescription="@string/cdr_4"
+        android:src="@drawable/cdr_4"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_5"
+        android:contentDescription="@string/cdr_5"
+        android:src="@drawable/cdr_5"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_6"
+        android:contentDescription="@string/cdr_6"
+        android:src="@drawable/cdr_6"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_7"
+        android:contentDescription="@string/cdr_7"
+        android:src="@drawable/cdr_7"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<Space />-->
+    <ImageView
+        android:id="@+id/cdr_8"
+        android:contentDescription="@string/cdr_8"
+        android:src="@drawable/cdr_8"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_9"
+        android:contentDescription="@string/cdr_9"
+        android:src="@drawable/cdr_9"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_10"
+        android:contentDescription="@string/cdr_10"
+        android:src="@drawable/cdr_10"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_11"
+        android:contentDescription="@string/cdr_11"
+        android:src="@drawable/cdr_11"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<Space />-->
+    <ImageView
+        android:id="@+id/cdr_12"
+        android:contentDescription="@string/cdr_12"
+        android:src="@drawable/cdr_12"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_13"
+        android:contentDescription="@string/cdr_13"
+        android:src="@drawable/cdr_13"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_14"
+        android:contentDescription="@string/cdr_14"
+        android:src="@drawable/cdr_14"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_15"
+        android:contentDescription="@string/cdr_15"
+        android:src="@drawable/cdr_15"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_16"
+        android:contentDescription="@string/cdr_16"
+        android:src="@drawable/cdr_16"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/cdr_17"
+        android:contentDescription="@string/cdr_17"
+        android:src="@drawable/cdr_17"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<Space />-->
+    <TextView
+        android:id="@+id/chosen"
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/zero"
+        app:layout_rowSpan="1"
+        app:layout_columnSpan="2" /><!--android:layout_marginBottom="@dimen/chosen_margin"-->
+    <ImageView
+        android:id="@+id/random"
+        android:contentDescription="@string/btn_random_description"
+        android:src="@drawable/cdr_x"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/reset"
+        android:contentDescription="@string/btn_reset_description"
+        android:src="@drawable/reset"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/about"
+        android:contentDescription="@string/btn_about_description"
+        android:src="@drawable/about"
+        android:layout_margin="@dimen/grid_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</android.support.v7.widget.GridLayout>

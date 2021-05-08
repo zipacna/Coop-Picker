@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    008577 default colorPrimary something green
+    00574B default colorPrimaryDark something darkgreen
+    D81B60 default colorAccent something red
+    1800F7 Coop Blue; 1800A7 Anno 1800
+    source: https://coolors.co/1800a7-0d0106-657ed4-bbd8b3-fbfbff
+    -->
+    <color name="dukeBlue">#1800A7</color>
+    <color name="smokyBlack">#0D0106</color>
+    <color name="livid">#657ED4</color>
+    <color name="lightMossGreen">#BBD8B3</color>
+    <color name="ghostWhite">#FBFBFF</color>
+</resources>

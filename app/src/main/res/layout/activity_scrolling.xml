@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/ghostWhite"
+    tools:context=".ScrollingActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"><!--@dimen/app_bar_height; ?attr/actionBarSize-->
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:fitsSystemWindows="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- if images use ids else keep text_grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin"
+        android:rowCount="2">
+        <GridView
+            android:id="@+id/image_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="6" />
+    </GridLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.risingcode.coop_picker.ScrollingActivity">
+    <item
+        android:id="@+id/action_risingcode"
+        android:orderInCategory="100"
+        android:title="@string/action_risingcode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_debug"
+        android:orderInCategory="100"
+        android:title="@string/action_debug"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_chose"
+        android:orderInCategory="100"
+        android:title="@string/action_chose"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="@string/action_reset"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>
